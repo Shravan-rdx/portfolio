@@ -1,1 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - SKY</title>
+    <link rel="stylesheet" href="style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font- 
+    awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="     
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+
+</head>
+<body>
+
+    <div id="navbar">
+        <div id="logo">
+            <h1>Shravan Portfolio</h1>
+            
+        </div>
+        <ul>
+            <!-- <li class="item"><a href="#home">Home</a></li> -->
+            <li class="item"><a href="#project">Project</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#skills">Skills</a></li>
+            <li class="item"><a href="#Education">Education</a></li>
+            <li class="item"><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <section id="home">
+
+        <div class="row">
+            <div class="column">
+                <div class="header-text">
+                    <h1>Hello, I'm <br><span>Shravan Kumar</span> <br>From India</h1>
+                    <p>A Full Stack Web Developer and UI/Ux Designer who writes clean,elegent and efficient code</p>
+                    <div class="social-link">
+                        <ul>
+                            <li>
+                                <a href="https://www.linkedin.com/in/shravan-kumar-60864720b/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/Shravan-rdx" target="_blank">
+                                    <i class="fa-brands fa-github"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/er.yadavshravan/" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/yadavshravan.shravan.5" target="_blank">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a> 
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/Shravan94726434?t=Vl8u7yy03hyF3pA1Arib7Q&s=09" 
+                                target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="bgg">
+                    <img src="img/sky2.png" alt="" width="100%" height="">
+                </div>
+            </div>
+            
+          </div>
+    </section>
+    <div class="seperator"></div>
+
+<!----------About------------->
+
+    <section id="about">
+        
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/sky1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Full stack web and mobile development background knowledge of MERN stacks with redux, along 
+                       witha a knack of building applications with utmost efficiency.Strong professional with a 
+                        Bachelor's in Computer Science and Engineering willing to be an asset for an organization 
+                        and Companies.</p>
+
+                    <h3>Here are a Few Highlights</h3>
+                    <ul>
+                        <li>Full Stack Development</li>
+                        <li>Problem Solving Ablity</li>
+                        <li>Data Structure's & Algo</li>
+                        <li>Interactive Front End as per the design</li>
+                        <li>MY SQL , DBMS</li>
+                        <li>React js </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        
+    </section>
+    <div class="seperator"></div>
+
+    <!-------------- Project ---------->
+    
+    <section id="project">
+        <label class="section-title">
+            <h5>Project &nbsp<i class="fa-solid fa-diagram-project"></i></h5> 
+            </label>
+            <div id="projects">
+                <div class="project">
+                  <img src="img/project1.png" alt="Project 1">
+                  <h2>OnlineMeal</h2>
+                  <p>This is online food serv Website..</p>
+                </div>
+                
+                <div class="project">
+                  <img src="img/project2.png" alt="Project 2">
+                  <h2>Calculator</h2>
+                  <p>This is Simple calculator..</p>
+                </div>
+              </div>
+    </section>
+    <div class="seperator"></div>
+
+    <!------------- Skills -------------->
+
+    <section id="skills">
+        <label class="section-title"> Skills &nbsp<i class="fa-solid fa-brain"></i></label>
+        <div class="skills-container">
+            <div class="skills-section">
+                <label class="skills-section-title">Programming Languages</label>
+                <div class="skill-list">
+                    <div class="skill-card">
+                        <lable class="skill-name">C++</lable>
+                        <div class="skill-icon"><i class="devicon-cplusplus-plain colored"></i></div>  
+                    </div>
+                    <div class="skill-card">
+                        <lable class="skill-name">Java</lable>
+                        <div class="skill-icon"><i class="devicon-java-plain colored"></i></div>
+                    </div>
+                    <div class="skill-card">
+                        <lable class="skill-name">C</lable>
+                        <div class="skill-icon"><i class="devicon-c-plain colored"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-section">
+                <label class="skills-section-title">Frontend</label>
+                <div class="skill-list">
+                    <div class="skill-card">
+                        <lable class="skill-name">Html</lable>
+                        <div class="skill-icon"><i class="devicon-html5-plain colored"></i></div>
+                    </div>
+                    <div class="skill-card">
+                        <lable class="skill-name">CSS</lable>
+                        <div class="skill-icon"><i class="devicon-css3-plain colored"></i></div>
+                    </div>
+                    <div class="skill-card">
+                        <lable class="skill-name">JavaScripts</lable>
+                        <div class="skill-icon"><i class="devicon-javascript-plain colored"></i></div>
+                    </div>
+                    <div class="skill-card"><lable class="skill-name">Reactjs</lable>
+                        <div class="skill-icon"><i class="devicon-react-original colored"></i></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-section">
+                <label class="skills-section-title">Backend</label>
+                <div class="skill-list">
+                    <div class="skill-card"><lable class="skill-name">Nodejs</lable>
+                        <div class="skill-icon"><i class="devicon-nodejs-plain colored"></i></div>
+                    </div>
+                    <div class="skill-card">
+                        <lable class="skill-name">MYSQL</lable>
+                        <div class="skill-icon"><i class="devicon-mysql-plain colored"></i></div>
+                    </div>
+                    <div class="skill-card">
+                        <lable class="skill-name">PHP</lable>
+                        <div class="skill-icon"><i class="devicon-php-plain colored"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="seperator"></div>
+
+    <!------------- Eduction ----------->
+
+    <section id="Education">
+        <label class="section-title">
+            <h5>Education &nbsp<i class="fas fa-user-graduate">
+            </i></h5> 
+            </label>
+            <div class="container">
+                <div class="item9">
+                    <h2>Bharath University.</h2>
+                    <h3>B.Tech In CSE.</h3>
+                    <p>July-2020~JUne-2024</p>
+                    <p>I am Currently Pursuing my Bachlor's from Bharath University Chennai</p>
+                </div>
+                <div class="item9">
+                    <img src="https://images.shiksha.com/mediadata/images/1574063220phpM6MIUq.jpeg" alt="">
+                </div>
+                <div class="item9">
+                    <h2>S.L.K. Collage Sitamarhi</h2>
+                    <h3>XII in BSEB Board.</h3>
+                    <p>April-2018~JUne-2020</p>
+                    <p>I have done my High School from S.L.K. Collage Sitamarhi</p>
+                </div>
+                <div class="item9">
+                    <img src="https://images.shiksha.com/mediadata/images/1664424074php81QYBm.jpeg" alt="">
+                </div>
+                <div class="item9">
+                    <h2>Sitamarhi High School</h2>
+                    <h3>Class X in BSEB Board.</h3>
+                    <p>April-2015~April-2018</p>
+                    <p>I completed my Schooling from sitamarhi High School, Dumara Sitamarhi</p>
+                </div>
+                <div class="item9">
+                    <img src="data:image/jpeg;base64,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" alt="">
+                </div>
+            </div>
+    </section>
+    <div class="seperator"></div>
+    <!----------- Contact ----------->
+
+    <section id="Contact">
+        <h1 class="h-primary center">Contact Me</h1>
+        <div id="Contact-box">
+            <div id="contact-info">
+                <p>Email: <span id="email-display"></span></p>
+                <p>Phone: <span id="phone-display"></span></p>
+              </div>
+
+              <div id="contact-form">
+                <form id="contactForm">
+                  <input type="text" id="name" placeholder="Your Name" required>
+                  <input type="email" id="email" placeholder="Your Email" required>
+                  <input type="tel" id="phone" placeholder="Your Phone Number" required>
+                  <textarea id="message" placeholder="Your Message" required></textarea>
+                  <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy; www.SKY.com.All rights reserved!
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
