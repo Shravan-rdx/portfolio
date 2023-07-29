@@ -255,36 +255,30 @@ padding: 10px 0px 20px 0px;
 }
 
 /*************** Project ************************/
-/* h1 {
-    text-align: center;
-    margin-top: 50px;
-  } */
-  
-  #projects {
-    display: flex;
-    justify-content: center;
+ #project{
+     text-align: center; 
   }
   
-  .project {
-    width: 300px;
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    text-align: center;
-  }
-  
-  .project img {
+  #project .projects{
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
+   
   }
-  
-  .project h2 {
-    margin-top: 0;
+  .projects .project{
+    /* margin: 20px; */
+    display: inline;
   }
-  
-  .project p {
-    margin-bottom: 0;
+  #project .project img {
+    width: 600px;
+    height: auto;
+    margin:30px ;
+  }
+
+  #project .project img:hover {
+    width: 590px;
+    height: auto;
+    margin:30px ;
+    opacity:60%;
   }
 /********* skills ***********/
 .section-title{
